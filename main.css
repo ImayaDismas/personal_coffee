@@ -430,9 +430,11 @@ button0:visited{
     margin: 0;
     padding: 0;
     width:185px;
+    text-align: center;
     list-style-type: none;
     margin-top: 100px;
     margin-left: 50px;
+    z-index: 1000;
 }
 .menu_simple ul h4{
     color:#C68E17;
