@@ -426,3 +426,27 @@ button0:visited{
 .button3:active{
         background:orange;
 }
+.menu_simple ul {
+    margin: 0;
+    padding: 0;
+    width:185px;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+    background-color: #C68E17;
+    display:block;
+    border-radius: 25px;
+    font-weight: 400;
+}
+.menu_simple ul li a:visited {
+    color: white;
+}
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #D0906D;
+}
